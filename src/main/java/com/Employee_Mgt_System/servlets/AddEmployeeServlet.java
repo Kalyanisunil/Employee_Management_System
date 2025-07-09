@@ -49,8 +49,8 @@ public class AddEmployeeServlet extends HttpServlet {
                     out.println("<h2>Failed to Add Employee</h2>");
                 }
 
-                out.println("<a href='add_employee.html'>Add Another</a><br>");
-                out.println("<a href='view'>View All Employees</a>");
+                out.println("<a href='AddEmployee.jsp' class='btn btn-success'>Add Another</a><br>");
+                out.println("<a href='ViewEmployeeServlet'>View All Employees</a>");
             }
         } catch (NumberFormatException e) {
             response.getWriter().println("<h3>Invalid ID or Salary input. Please enter correct numeric values.</h3>");

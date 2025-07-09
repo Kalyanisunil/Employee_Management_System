@@ -40,7 +40,7 @@
 </div>
 
 <button type="submit" class="btn btn-primary">Update Employee</button>
-<a href="view" class="btn btn-danger">Cancel</a>
+<a href="ViewEmployeeServlet" class="btn btn-danger">Cancel</a>
 
          
     </form>

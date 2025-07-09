@@ -55,6 +55,7 @@
                 <%
                     } // end for loop
                 %>
+                <a class="btn btn-info" href="home.jsp" >Back</a>
             </tbody>
         </table>
     </div>
